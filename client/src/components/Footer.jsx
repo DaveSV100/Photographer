@@ -4,7 +4,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <div className='footer'>
-      FOOTER
+      785 107 0156
     </div>
   );
 };

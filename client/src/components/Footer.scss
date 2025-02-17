@@ -6,11 +6,23 @@
 //     justify-content: center;
 //     align-items: center;
 //   }
-
 .footer {
+  height: 12vh;
+  background-color: rgb(248, 247, 247);
+   p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   }
+}
+.links {
   width: 100%;
-  margin-top: 50px;
-  height: 10vh;
+  // margin-top: 50px;
+  padding-bottom: 40px;
+
   background-color: rgb(248, 247, 247);
   color: #242424;
   // text-align: center;

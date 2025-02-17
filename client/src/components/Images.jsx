@@ -15,7 +15,7 @@ const Images = () => {
                     <img src={hotel} alt="Hey dude" />
                 </div>
                 <div>
-                    <h4>Turimsmo</h4>
+                    <h4>Turismo</h4>
                     <p></p>
                     <img src={canoe} alt="Hey dude" />
                 </div>

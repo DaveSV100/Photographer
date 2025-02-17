@@ -1,8 +1,33 @@
+// .footer {
+//     display: flex;
+//     height: 10vh;
+//     background-color: rgb(248, 247, 247);
+//     color: #242424;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
 .footer {
+  width: 100%;
+  margin-top: 50px;
+  height: 10vh;
+  background-color: rgb(248, 247, 247);
+  color: #242424;
+  // text-align: center;
+  // align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  gap: 20px; /* Space between mail and WhatsApp sections */
+}
+.footer-item {
     display: flex;
-    height: 10vh;
-    background-color: rgb(255, 255, 255);
-    color: #242424;
-    justify-content: center;
-    align-items: center;
+    align-items: center; /* Align icon and text vertically */
+    gap: 8px; /* Space between icon and text */
+    text-decoration: none; /* Remove underline */
+    color: #242424; /* Ensure text color is white */
   }
+.mail,
+.whatsapp {
+    width: 30px;
+}
